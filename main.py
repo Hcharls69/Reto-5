@@ -1,3 +1,7 @@
-import numpy as np
+class Administrador():
 
-print(np.random.random(12))
+    def __init__(self):
+        self.menu()
+
+    def menu(self):
+        print("Este es el menu principal")
